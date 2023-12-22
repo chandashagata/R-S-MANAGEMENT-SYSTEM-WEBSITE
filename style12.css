@@ -91,9 +91,35 @@ body {
   
   }
 
+/* TEXT INFO */
+  .shags1{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 100px;
+    
+    margin-bottom: 50px;
+    color: #004bae;
+
+  }
+  .shags2{
+    margin-left: 100px;
+    margin-bottom: 30px;
+    color: #006eff;
+
+  }
+
+  .shaggy{
+    margin-right: 100px;
+    text-align: justify;
+    margin-left: 100px;
+    color: black;
+    font-size: 18px;
+  }
 
 
-
+/* FOOTER */
   .foot{
     text-align: center;
     padding: 5px;
@@ -144,4 +170,48 @@ body {
 
   .tele1{
     float: left;
+  }
+  /* services offerred waala list */
+  .sub-menu-2{
+    margin-left: -10px;
+    display: none;
+    max-height: 380px;
+    overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  }
+  .sub-menu-2::-webkit-scrollbar{
+    width: 6px;
+  }
+  .sub-menu-2::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 157, 255); 
+    border-radius: 3px;
+  }
+  .sub-menu-2::-webkit-scrollbar-track {
+    background-color: rgb(255, 225, 0); /* Customize the scrollbar track color */
+  }
+  .head ul li:hover .sub-menu-2{
+    z-index: 2;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-left: 1150px;
+    background-color: rgb(255, 225, 0);
+  }
+  .head ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 5px;
+  }
+  
+  .sub-menu-2 ul li{
+    font-weight: bold;
+    font-size: small;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+  
   }
