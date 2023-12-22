@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  
+.head{
+  z-index: 2;
+  height: 70px;
+    background-image:url(backgroundbanner.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 207, 16);
+    width: 100%;
+    z-index: 1000;
+    animation: blink is infinite;
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.img1{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+
+  .head ul{
+    list-style: none;
+    display: flex;
+    margin-left: 820px;
+  }
+  
+  .head ul li{
+    margin-top: 3px;
+    padding: 8px 8px;
+  }
+  
+  .head ul li a{
+    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+    text-decoration: solid;
+    color: #80331c;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: medium;
+    transition: all 0.3s;
+  }
+  .head ul li a:hover{
+    color: white;
+  }
+  
+  
+  .sub-menu-1{
+    margin-left: -10px;
+    display: none;
+  }
+  .head ul li:hover .sub-menu-1{
+    z-index: 2;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-left: 1020px;
+    background-color: rgb(255, 225, 0);
+  }
+  .head ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 5px;
+  }
+  
+  .sub-menu-1 ul li{
+    font-weight: bold;
+    font-size: small;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+  
+  }
+
+
+
+
+  .foot{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+    height: 350px;
+  }
+
+  .foots{
+    background-color: rgb(255, 207, 16);
+  }
+
+  .new{
+    display: flex;
+  }
+
+  .new1{
+    flex: 1;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .text{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: left;
+    color: #006eff;
+  }
+  .texts{
+    font-size: larger;
+    color: black;
+    text-align: left;
+    text-decoration: solid;
+    font-weight: 500;
+  }
+  .texts a:hover{
+    color: rgb(12, 74, 8);
+  }
+  
+  .tel{
+    float: left;
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .telephone{
+    display: flex;
+  }
+
+  .tele1{
+    float: left;
+  }
