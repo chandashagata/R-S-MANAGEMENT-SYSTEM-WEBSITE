@@ -497,6 +497,7 @@ body {
   margin-left: 270px;
   margin-top: 3px;
   color: black;
+  cursor: pointer;
 }
 
 .app{
@@ -507,6 +508,7 @@ body {
   border: 0;
   padding: 10px;
   color: white;
+  cursor: pointer;
 }
 .app:hover{
   color: white;
