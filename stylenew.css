@@ -914,12 +914,12 @@ body {
   }
   
   .head ul li a{
-    padding: 15px 7px;
+    padding: 10px 5px;
     text-decoration: solid;
     color: #80331c;
     margin-top: 5px;
     cursor: pointer;
-    font-size: 7px;
+    font-size: 9px;
     transition: all 0.3s;
    
   }
