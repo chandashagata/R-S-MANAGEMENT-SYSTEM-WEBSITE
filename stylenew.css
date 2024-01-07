@@ -1092,6 +1092,15 @@ body {
     background-color: red;
     display: none;
   }
+
+  .mobiles{
+    width: 13px;
+    height: 18px;
+    margin-bottom: -3px;
+    margin-right: 0px;
+  
+  }
+
   
 
 }
