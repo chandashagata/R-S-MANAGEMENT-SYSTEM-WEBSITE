@@ -524,6 +524,7 @@ body {
 
 
 
+
 @media (max-width: 846px){
 
 
@@ -726,8 +727,8 @@ body {
 
 .pimg{
     float: center;
-    width: 100px;
-    height: 90px;
+    width: 130px;
+    height: 120px;
     transition: transform 0.9s ease;
 
 }
@@ -751,15 +752,15 @@ body {
 }
 
 .but{
-    margin-top: -20px;
-    padding: 4px;
+    margin-top: -10px;
+    padding: 7px;
     background-color: #ffa200;
     color: white;
     border: #ffa200;
     border-radius: 5px;
-    font-weight: bolder;
-    font-size: 7px;
-    
+    font-weight: bold;
+    font-size: smaller;
+    cursor: pointer;
   
 }
 
@@ -859,9 +860,9 @@ body {
     box-shadow: rgb(167, 167, 167) 20px 10px 15px;
     margin-left: 5px;
     margin-right: 5px;
-    margin-top: -60px;
+    margin-top: -50px;
     height: 270px;
-    text-align: left;
+    text-align: center;
   
     
   }
@@ -870,6 +871,8 @@ body {
     font-size: larger;
     font-weight: bold;
     text-align: center;
+    margin-top: 20px;
+    
    
   }
 
@@ -882,7 +885,7 @@ body {
   }
 
   .know{
-    margin-left: 143px;
+    margin-left: 0px;
     margin-bottom: 9px;
     padding: 8px;
     background-color: #ffa200;
@@ -957,6 +960,8 @@ body {
     padding: 3px;
    
   }
+
+
 
   /* services offerred waala list */
 .sub-menu-2{
