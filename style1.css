@@ -270,7 +270,7 @@ body {
 
 
 
-  @media (max-width: 846px){
+  @media (max-width: 767px){
     body {
       font-family: Arial, sans-serif;
       margin: 0;
@@ -450,7 +450,7 @@ body {
   
     .textc{
       margin-left: 10px;
-      margin-right: 10px;
+      margin-right: 30px;
       margin-top: 70px;
     }
   
@@ -465,14 +465,17 @@ body {
   
     .info{
       margin-left: 25px;
-      text-align: left;
+      text-align: justify;
       font-size: 14px;
+    }
+    .list{
+      font-size: medium;
     }
   
     .textS{
       margin-top: 50px;
       margin-left: 10px;
-      margin-right: 10px;
+      margin-right: 30px;
   
     }
     .piclass{
