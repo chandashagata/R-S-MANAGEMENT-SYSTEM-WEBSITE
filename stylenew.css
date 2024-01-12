@@ -1039,10 +1039,14 @@ body {
   }
 
 
+
+
   .popup-container {
     display: inline-block;
     display: none;
-    position: fixed;
+   
+    position: static;
+    background: none;
     top: 0;
     left: 0;
     width: 100%;
