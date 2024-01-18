@@ -464,13 +464,14 @@ body {
     .info{
       margin-left: 34px;
       text-align: justify;
-      font-size: 22px;
+      font-size: 15px;
     }
   
     .textS{
       margin-top: 70px;
       margin-left: 10px;
       margin-right: 40px;
+      
      
      
   
@@ -500,17 +501,17 @@ body {
   .advantage{
     margin-left: 34px;
     color: rgb(0, 0, 255);
-    font-size: x-large;
+    font-size: larger;
     font-weight: bold;
     
   }
   .list{
-    font-size: 22px;
+    font-size: 15px;
   }
   .parts2{
     margin-right: 150px;
-    margin-left: 30px;
-    height: 750px;
+    margin-left: 10px;
+    height: 550px;
     display: flex;
   }
 
@@ -523,7 +524,7 @@ body {
   .advant{
     font-size: small;
     flex: 1;
-    margin-right: 40px;
+    margin-right: 10px;
   }
   .adv{
     margin-left: 30px;
