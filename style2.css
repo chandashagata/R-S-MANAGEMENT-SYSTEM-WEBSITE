@@ -509,7 +509,7 @@ body {
       display: flex;
      flex-direction: column;
       padding: 10px;
-      height: 2250px;
+      height: 2340px;
       float: center;
       margin-left: 0px;
       text-align: center;
@@ -518,7 +518,7 @@ body {
   
     .pumpic{
       width: 290px;
-      height: 470px;
+      height: 500px;
       float: center;
     }
   
