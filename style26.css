@@ -142,8 +142,9 @@ body {
     margin-right: 100px;
     border-radius: 30px;
     background-color: rgba(255, 255, 255, 0.355);
-    height: 1100px;
+    height: 955px;
     margin-bottom: 60px;
+    display: flex;
     
   }
 
@@ -152,13 +153,14 @@ body {
     padding: 15px;
     margin-top: 50px;
     margin-bottom: -50px;
-    display: inline-block;
+    flex: 1;
     height: 850px;
     background-color: white;
     padding: 20px;
     box-sizing: border-box;
-    margin-left: 60px;
+    margin-left: 20px;
     border-radius: 30px;
+    margin-right: 20px;
 
   }
 
