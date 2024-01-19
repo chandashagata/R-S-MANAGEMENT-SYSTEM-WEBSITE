@@ -510,6 +510,7 @@ body {
     text-align: center;
     margin-left: 0px;
     
+    
   }
   div.row > div.row:last-child {
     margin-bottom: -500px;
@@ -518,9 +519,10 @@ body {
 
 
   .pumpic{
-    width: 350px;
-    height: 300px;
+    width: 290px;
+    height: 270px;
     float: center;
+    
   }
 
   .first{
