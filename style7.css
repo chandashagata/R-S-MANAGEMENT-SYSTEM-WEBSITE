@@ -73,6 +73,7 @@ body {
     margin-left: 34px;
     text-align: left;
     font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .textS{
@@ -165,6 +166,7 @@ body {
   }
   .list{
     font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .parts2{
     margin-right: 150px;

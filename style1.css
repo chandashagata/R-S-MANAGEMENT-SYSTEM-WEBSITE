@@ -68,11 +68,18 @@ body {
     font-size: xx-large;
   }
 
+  .list{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+  }
+
 
   .info{
     margin-left: 25px;
     text-align: left;
     font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .textS{

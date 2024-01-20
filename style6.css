@@ -67,6 +67,7 @@ body {
     font-size: 17.5px;
     margin-top: -15px;
     text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .parts{
@@ -94,6 +95,7 @@ body {
 
   .list{
     font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
 
   .row{
@@ -461,12 +463,14 @@ body {
       margin-left: 30px;
       margin-right: 30px;
       margin-bottom: -100px;
+      
     }
   
     .introtext{
       font-size: 15px;
       margin-top: -15px;
       text-align: justify;
+      font-family: Georgia, 'Times New Roman', Times, serif;
     }
   
     .parts{
