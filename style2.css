@@ -293,6 +293,14 @@ body {
     text-align: left;
   
   }
+  .videocont{
+    width: 400px;
+    height: 250px;
+  }
+  .videocont iframe{
+    width: 100%;
+    height: 100%;
+  }
 
 
 
