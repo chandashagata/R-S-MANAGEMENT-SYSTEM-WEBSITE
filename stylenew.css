@@ -1,3 +1,4 @@
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -517,6 +518,28 @@ body {
   background-color: red;
 }
 
+.fa-phone{
+  width: 20px;
+  height: 20px;
+}
+.fa-envelope{
+  width: 20px;
+  height: 20px;
+  color: #ffaf03;
+
+}
+.fa-linkedin{
+  width: 20px;
+  height: 20px;
+  color: rgb(0, 0, 255);
+
+}
+.fa-youtube{
+  width: 20px;
+  height: 20px;
+  color: red;
+
+}
 
 
 
@@ -917,7 +940,7 @@ body {
 
   .head ul li{
     margin-top: -10px;
-    padding: 3px 3px;
+    padding: 3px 2px;
     
     
   }
@@ -1114,6 +1137,28 @@ body {
     height: 18px;
     margin-bottom: -3px;
     margin-right: 0px;
+  
+  }
+  .fa-phone{
+    width: 20px;
+    height: 20px;
+  }
+  .fa-envelope{
+    width: 20px;
+    height: 20px;
+    color: #ffaf03;
+  
+  }
+  .fa-linkedin{
+    width: 20px;
+    height: 20px;
+    color: rgb(0, 0, 255);
+  
+  }
+  .fa-youtube{
+    width: 20px;
+    height: 20px;
+    color: red;
   
   }
 

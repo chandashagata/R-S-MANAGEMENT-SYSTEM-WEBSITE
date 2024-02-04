@@ -183,8 +183,8 @@ height: 70px;
   display: none;
   max-height: 380px;
   overflow-y: auto;
-scrollbar-width: thin;
-scrollbar-color: transparent transparent;
+scrollbar-width: auto;
+scrollbar-color: rgb(0, 157, 255);
 }
 .sub-menu-2::-webkit-scrollbar{
   width: 6px;
