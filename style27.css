@@ -1,0 +1,610 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .head{
+  z-index: 2;
+  height: 70px;
+    background-image:url(backgroundbanner.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 207, 16);
+    width: 100%;
+    z-index: 1000;
+    animation: blink is infinite;
+  }
+  @keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  .img1{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-top: 8px;
+    margin-left: 30px;
+  }
+  
+  .head ul{
+    list-style: none;
+    display: flex;
+    margin-left: 820px;
+  }
+  
+  .head ul li{
+    margin-top: 3px;
+    padding: 8px 8px;
+  }
+  
+  .head ul li a{
+    padding-bottom: 25px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  
+    text-decoration: solid;
+    color: #80331c;
+    margin-top: 25px;
+    cursor: pointer;
+    font-size: medium;
+    transition: all 0.3s;
+  }
+  .head ul li a:hover{
+    color: white;
+  }
+  
+  
+  .sub-menu-1{
+    margin-left: -10px;
+    display: none;
+  }
+  .head ul li:hover .sub-menu-1{
+    z-index: 2;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-left: 1020px;
+    background-color: rgb(255, 225, 0);
+  }
+  .head ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 5px;
+  }
+  
+  .sub-menu-1 ul li{
+    font-weight: bold;
+    font-size: small;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+  
+  }
+
+
+
+
+
+
+
+  /* TEXT INFO */
+  @font-face { 
+    font-family:'FontAwesome';
+    src:url('https://hetpump.co.in/fonts/fontawesome-webfont5b62.eot?v=4.6.3');
+    src:url('https://hetpump.co.in/fonts/fontawesome-webfontd41d.eot?#iefix&v=4.6.3') format('embedded-opentype'),url('https://hetpump.co.in/fonts/fontawesome-webfont5b62.woff2?v=4.6.3') format('woff2'),url('https://hetpump.co.in/fonts/fontawesome-webfont5b62.woff?v=4.6.3') format('woff'),url('https://hetpump.co.in/fonts/fontawesome-webfont5b62.ttf?v=4.6.3') format('truetype'),url('https://hetpump.co.in/fonts/fontawesome-webfont5b62.svg?v=4.6.3#fontawesomeregular') format('svg');
+    font-weight:normal;
+    font-style:normal;
+  } 
+    body {  
+      font-family:var(--bs-font-sans-serif);
+      font-size:1rem;
+      font-weight:400;
+      line-height:1.5;
+      color:#212529;
+      letter-spacing:0.1px;
+    }  
+  body { 
+  /* CSS Variables that may have been missed get put on body */ 
+      --bs-gutter-x:  1.5rem;  
+      --bs-gutter-y:  0;  
+  } 
+  
+  * { 
+      box-sizing: border-box;
+  } 
+  
+  .row-not > *  { 
+      flex-shrink: 0; 
+      width: 100%; 
+      max-width: 100%; 
+      padding-right: calc(var(--bs-gutter-x) * .5); 
+      padding-left: calc(var(--bs-gutter-x) * .5); 
+      margin-top: var(--bs-gutter-y);
+  } 
+  
+  .row-not { 
+      --bs-gutter-x: 1.5rem; 
+      --bs-gutter-y: 0; 
+      display: flex; 
+      flex-wrap: wrap; 
+      margin-top: calc(var(--bs-gutter-y) * -1); 
+      margin-right: calc(var(--bs-gutter-x) * -.5); 
+      margin-left: calc(var(--bs-gutter-x) * -.5);
+  } 
+  
+  body { 
+      margin: 0; 
+      font-family: var(--bs-font-sans-serif); 
+      font-size: 1rem; 
+      font-weight: 400; 
+      line-height: 1.5; 
+      color: #212529; 
+      background-color: #fff; 
+      -webkit-text-size-adjust: 100%; 
+      -webkit-tap-highlight-color: transparent;
+  } 
+  
+  body { 
+      font-family: var(--body-fonts); 
+      font-weight: 400; 
+      font-size: 14px; 
+      line-height: 24px; 
+      letter-spacing: 0.1px; 
+      color: #444;
+  } 
+  
+  :root { 
+      --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+  } 
+  
+  :root { 
+      --skin-color: #312168; 
+      --dark-grey-color: #0076c7; 
+      --white-color: #fff; 
+      --body-fonts: 'Poppins', Tahoma, Geneva, sans-serif; 
+      --title-fonts: 'Inter', Arial, Helvetica, sans-serif;
+  } 
+  
+  .content-3qk { 
+      background: #ffffff; 
+      padding: 20px;
+  } 
+  
+  *,:after,:before { 
+      box-sizing: border-box;
+  } 
+  
+  :selection { 
+      background: var(--skin-color); 
+      color: var(--white-color); 
+      text-shadow: none;
+  } 
+  
+  .pad-9tl { 
+    
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 60px;
+      padding-bottom: 20px;
+  } 
+  
+  p { 
+      margin-top: 0; 
+      margin-bottom: 1rem;
+  } 
+  
+  p { 
+      margin: 0 0 15px; 
+      font-size: large;
+  } 
+  
+  .container-1c8 { 
+      width: 100%; 
+      padding-right: var(--bs-gutter-x,.75rem); 
+      padding-left: var(--bs-gutter-x,.75rem); 
+      margin-right: auto; 
+      margin-left: auto;
+  } 
+  
+  .p-2s8 { 
+      padding: 0!important;
+  } 
+  
+  .container-1c8 { 
+      counter-reset: featuredbox-number;
+  } 
+  
+  @media (min-width: 768px){ 
+    .col-gj7 { 
+      flex: 0 0 auto; 
+      width: 100%;
+    } 
+  }     
+  
+  .pad-k31 { 
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    padding-right: 90px;
+      padding-top: 20px;
+  } 
+  
+  hr { 
+      margin: 1rem 0; 
+      color: inherit; 
+      background-color: currentColor; 
+      border: 0; 
+      opacity: .25;
+  } 
+  
+  hr:not([size]) { 
+      height: 1px;
+  } 
+  
+  .pad-h2t { 
+      padding-bottom: 50px;
+  } 
+  
+  @media (min-width: 992px){ 
+    .col-y5c { 
+      flex: 0 0 auto; 
+      width: 33.33333333%;
+    } 
+  }     
+  
+  h3 { 
+      margin-top: 0; 
+      margin-bottom: .5rem; 
+      font-weight: 500; 
+      line-height: 1.2;
+  } 
+  
+  h3 { 
+      font-size: calc(1.3rem + .6vw);
+  } 
+  
+  @media (min-width: 1200px){ 
+    h3 { 
+      font-size: 1.75rem;
+    } 
+  }     
+  
+  h3 { 
+      font-family: var(--title-fonts); 
+      margin-bottom: 15px; 
+      font-weight: 700; 
+      color: var(--dark-grey-color); 
+      font-style: normal; 
+      -ms-word-wrap: break-word; 
+      word-wrap: break-word;
+  } 
+  
+  h3 { 
+      font-size: 38px; 
+      line-height: 48px; 
+      font-style: normal;
+  } 
+  
+  .content-3qk div:not(.featured-title) > h3 { 
+      font-size: 24px; 
+      line-height: 34px; 
+      margin: 0;
+  } 
+  
+  table { 
+      caption-side: bottom; 
+      border-collapse: collapse;
+  } 
+  
+  table.table-xtb { 
+      padding: 7px 10px; 
+      line-height: 20px;
+  } 
+  
+  table.table-xtb { 
+      max-width: 500px;
+  } 
+  
+  ul { 
+      padding-left: 2rem;
+  } 
+  
+  ul { 
+      margin-top: 0; 
+      margin-bottom: 1rem;
+  } 
+  
+  ul { 
+      padding: 0; 
+      margin: 0;
+  } 
+  
+  ul { 
+      margin: 16px 0; 
+      padding: 0 0 0 25px;
+  } 
+  
+  .grid-cnc { 
+      display: grid!important;
+  } 
+  
+  .list-zow { 
+      list-style: none; 
+      padding: 0; 
+      margin: 0; 
+      font-size: 14px;
+  } 
+  
+  .wrapper-w2h { 
+      border: 5px solid var(--skin-color);
+  } 
+  
+  .wrapper-w2h { 
+      overflow: hidden; 
+      cursor: zoom-in;
+  } 
+  
+  tbody { 
+      border-color: inherit; 
+      border-style: solid; 
+      border-width: 0;
+  } 
+  
+  .list-zow.list-yrx li  { 
+      position: relative; 
+      display: inline-block; 
+      padding-bottom: 10px;
+  } 
+  
+  .list-zow.list-yrx li:hover { 
+      color: var(--skin-color);
+  } 
+  
+  strong { 
+      font-weight: bolder;
+  } 
+  
+  strong { 
+      font-weight: 800; 
+      color: var(--skin-color);
+  } 
+  
+  a { 
+      color: #0d6efd; 
+      text-decoration: underline;
+  } 
+  
+  a { 
+      text-decoration: none; 
+      outline: none; 
+      color: var(--skin-color);
+  } 
+  
+  a { 
+      outline: none;
+  } 
+  
+  a { 
+      color: inherit;
+  } 
+  
+  a { 
+      -webkit-transition: all 0.3s ease 0s; 
+      -moz-transition: all 0.3s ease 0s; 
+      -ms-transition: all 0.3s ease 0s; 
+      -o-transition: all 0.3s ease 0s; 
+      transition: all 0.3s ease 0s;
+  } 
+  
+  a:hover { 
+      color: #0a58ca;
+  } 
+  
+  a,a:hover,a:active { 
+      text-decoration: none; 
+      outline: none; 
+      color: var(--skin-color);
+  } 
+  
+  tr { 
+      border-color: inherit; 
+      border-style: solid; 
+      border-width: 0;
+  } 
+  
+  tr { 
+      padding: 7px 10px; 
+      line-height: 20px;
+  } 
+  
+  .fa-dl7 { 
+      display: inline-block; 
+      font: normal normal normal 14px/1 FontAwesome; 
+      font-size: inherit; 
+      text-rendering: auto; 
+      -webkit-font-smoothing: antialiased; 
+      -moz-osx-font-smoothing: grayscale;
+  } 
+  
+  .list-ik6 li i  { 
+      color: var(--skin-color);
+  } 
+  
+  .list-zow.list-yrx li i  { 
+      position: absolute; 
+      left: auto; 
+      top: 4px; 
+      font-weight: 700;
+  } 
+  
+  .row-oom:before { 
+      content: "\f0a9";
+  } 
+  
+  .list-zow.list-yrx .content-bro  { 
+      display: inline-block; 
+      padding-left: 30px; 
+      font-weight: 500;
+  } 
+  
+  @media (min-width: 768px){ 
+    .col-4de { 
+      flex: 0 0 auto; 
+      width: 41.66666667%;
+    } 
+  }     
+  
+  img { 
+      vertical-align: middle;
+  } 
+  
+  img { 
+      -webkit-transition: all 0.3s ease 0s; 
+      -moz-transition: all 0.3s ease 0s; 
+      -ms-transition: all 0.3s ease 0s; 
+      -o-transition: all 0.3s ease 0s; 
+      transition: all 0.3s ease 0s;
+  } 
+  
+  .img-18o { 
+      max-width: 100%; 
+      height: auto;
+  } 
+  
+  .wrapper-w2h:hover a img { 
+      transform: scale(1.2); 
+      cursor: zoom-in;
+  } 
+  
+  td { 
+      border-color: inherit; 
+      border-style: solid; 
+      border-width: 0;
+  } 
+  
+  td { 
+      padding: 7px 10px; 
+      line-height: 20px;
+  } 
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  /* FOOTER */
+  .foot{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 0px;
+    height: 350px;
+  }
+  
+  .foots{
+    background-color: rgb(255, 207, 16);
+  }
+  
+  .new{
+    display: flex;
+  }
+  
+  .new1{
+    flex: 1;
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .text{
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: left;
+    color: #006eff;
+  }
+  .texts{
+    font-size: larger;
+    color: black;
+    text-align: left;
+    text-decoration: solid;
+    font-weight: 500;
+  }
+  .texts a:hover{
+    color: rgb(12, 74, 8);
+  }
+  
+  .tel{
+    float: left;
+    margin-top: 8px;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .telephone{
+    display: flex;
+  }
+  
+  .tele1{
+    float: left;
+  }
+
+  /* services offerred waala list */
+  .sub-menu-2{
+    margin-left: -10px;
+    display: none;
+    max-height: 380px;
+    overflow-y: auto;
+  scrollbar-width: auto;
+  scrollbar-color: rgb(0, 157, 255);
+  }
+  .sub-menu-2::-webkit-scrollbar{
+    width: 6px;
+  }
+  .sub-menu-2::-webkit-scrollbar-thumb {
+    background-color: rgb(0, 157, 255); 
+    border-radius: 3px;
+  }
+  .sub-menu-2::-webkit-scrollbar-track {
+    background-color: rgb(255, 225, 0); /* Customize the scrollbar track color */
+  }
+  .head ul li:hover .sub-menu-2{
+    z-index: 2;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    margin-left: 1150px;
+    background-color: rgb(255, 225, 0);
+  }
+  .head ul li:hover .sub-menu-2 ul{
+    display: block;
+    margin: 5px;
+  }
+  
+  .sub-menu-2 ul li{
+    font-weight: bold;
+    font-size: small;
+    width: 100px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: left;
+  
+  }
