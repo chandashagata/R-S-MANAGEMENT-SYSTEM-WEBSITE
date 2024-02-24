@@ -49,9 +49,9 @@ document.getElementById("button1").addEventListener("click", function() {
     document.getElementById("content").innerHTML = `
     <div class="products">
             <div class="bhet">
-                <a href="2PED.html"><img src="2PED-removebg.png"class="het"></a>
+                <a href=""><img src="2PED-removebg.png"class="het"></a>
                 <p class="pump">Eco Portable Submersible Drainage Pump “2PED” Series</p>
-                <a href=""><button class="hetbut">Learn More</button></a>
+                <a href="2PED.html"><button class="hetbut">Learn More</button></a>
                
             </div>
     
